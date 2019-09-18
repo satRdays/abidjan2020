@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://satrdays-event-template.netlify.com/" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "http://localhost:1313"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -20,9 +20,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
-  # email = "your@email.com"
+  name = "satRday Abidjan 2020"
+  description = "R conference in Abidjan 2020"
+  email = "abidjanrusers@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -52,12 +52,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     brand = "satRday"
     # Optional logo as brand stored in img/
     logo = "logo.png"
-    services = "About"
+    services = "A Propos"
     portfolio = "Talks"
-    eventbrite = "Register"
-    schedule = "Schedule"
-    team = "People"
-    contact = "Get involved"
+    eventbrite = "Inscription"
+    schedule = "Programme"
+    team = "Team"
+    contact = "Impliquez-vous?"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -80,61 +80,61 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Abidjan"
+    subtitle = "Une conference pour les utilisateurs de R qui se tiendra le [Conference Date]"
     bg = true
-    buttonText = "Tell me more"
+    buttonText = "Plus d'infos"
 
 
   # About [Services] section
   [params.services]
     enable = true
-    title = "About"
-    subtitle = "Conference Details"
+    title = "A Propos"
+    subtitle = "Détails sur la conference"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Details"
+      title = "Détails"
       description = "[Conference Date] at [Conference Location]"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
+      title = "Pratique"
+      description = "Applications pratiques et ateliers de prise en main"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
+      title = "Formation"
+      description = "Acquérir les connaissances de vos pairs et de professionnels expérimentés"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
-      description = "Community organised, community focussed"
+      description = "Organisée par la communauté, axée sur la communauté"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
-      title = "Affordable"
-      description = "Only [£30]"
+      title = "Gratuit"
+      description = "Gratuit"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
+      description = "Milieu inclusif, favorable et respectueux"
       url = "#"
 
   # Register section
   # You only need ONE of these active
   [params.tito]
     enable = true
-    title = "Register"
+    title = "S'inscire"
     bg = true
     accountevent = "ultimateconf/2013"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
@@ -176,7 +176,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Talks"
-    subtitle = "Who's saying what"
+    subtitle = "Qui dit quoi?"
     bg = true
 
     [params.portfolio.modal]
@@ -188,14 +188,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Schedule section
   [params.schedule]
     enable = true
-    title = "Schedule"
+    title = "Programme"
     bg = false
 
   # Important Dates [About] section
   [params.about]
     enable = true
-    title = "Important Dates"
-    subtitle = "Be prepared!"
+    title = "Dates Importantes"
+    subtitle = "Soyez Prêts!"
     endpoint = "Conference"
 
     # The events will be listed from the top to the bottom.
@@ -204,26 +204,26 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.about.events]]
       img = "1.jpg"
       date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      title = "Pré-conférence"
+      description = "Nous organisons une conférence!"
 
     [[params.about.events]]
       img = "2.jpg"
       date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+      title = "Début des enregistrements"
+      description = "Enregistrez-vous dès à présent! Nombre de places limités"
 
     [[params.about.events]]
       img = "3.jpg"
       date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      title = "Appel à Communications"
+      description = "Les soumissions pour être speaker sont ouverts!"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+      title = "Fin de l'appel à Communications"
+      description = "Date limite pour les soumissions de conférenciers"
   
   # Location section
   [params.location]
@@ -238,7 +238,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Possibility to center items
     #center = true
     title = "Team"
-    subtitle = "The people putting it together"
+    subtitle = "Les gens qui l'organise"
     bg = false
     description = ""
     speakers = "Speakers"
@@ -249,18 +249,28 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      name = "Anicet Ebou"
+      position = "Organisateur Principal"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      livesIn = "[Abidjan, Côte d'Ivoire](#some-maps-url)"
       scope = [
         "Role 1 for [thing 1](#)",
         "Role 2 for [thing 2](#)",
         "Role 3 for [thing 3](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      bio = """Je suis bioinformaticien,
+      et amoureux de R"""
+      social = [
+        ["fa-twitter", "https://twitter.com/anicetebou"],
+        ["fa-github", "https://github.com/ebedthan"],
+        ["fa-linkedin", "https://linkedin.com/in/anicet-ebou"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Evans Kouadio"
+      position = "Organisation et Logistique"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -269,18 +279,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      name = "Aimé Kouadio"
+      position = "Communication et Sponsoring"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -317,15 +317,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   [params.diversity]
     enable = true
-    title = "Diversity"
+    title = "Diversité"
     bg = true
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Contactez-nous"
+    subtitle  = "N'hesitez pas à entrer en contact avec nous!"
+    buttonText = "Envoyer"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -346,7 +346,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "abidjanrusers@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -357,20 +357,20 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+      text = "Votre nom *"
+      warning = "Veuillez entrer un nom SVP."
 
     [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+      text = "Votre Email *"
+      warning = "Veuillez entrer votre adresse email SVP."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+      text = "Votre numéro de téléphone *"
+      warning = "Veuillez entrer votre numéro de téléphone SVP."
 
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+      text = "Votre Message *"
+      warning = "Veuillez entrer votre message SVP."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -384,7 +384,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Publié sous la licence Apache 2.0."
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -397,9 +397,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       title = "GitHub"
 
     [[params.footer.quicklinks]]
-      text = "Privacy Policy"
+      text = "Politique de Confidentialité"
       link = "#"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
+      text = "Conditions d'utilisation"
       link = "#"
