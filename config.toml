@@ -1,11 +1,11 @@
 # Site settings
-baseurl = "http://localhost:1313"
-languageCode = "en-us"
-title = "satRday"
+baseurl = "abidjan2020.satrdays.org"
+languageCode = "fr-FR"
+title = "satRday Abidjan 2020"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-139138702-3"
 
 # Disable taxonomies that are not used https://discourse.gohugo.io/t/found-no-layout-for-taxonomyterm-language-en-output-format-html/16376
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -35,8 +35,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "La page recherchée ne peut-être trouvée"
+    text = "Visitez cette page svp [this page](/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -57,7 +57,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     eventbrite = "Inscription"
     schedule = "Programme"
     team = "Team"
-    contact = "Impliquez-vous?"
+    contact = "Impliquez-vous"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -80,8 +80,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday Abidjan"
-    subtitle = "Une conference pour les utilisateurs de R qui se tiendra le [Conference Date]"
+    title = "satRday Abidjan 2020"
+    subtitle = "Une conference pour les utilisateurs de R qui se tiendra le 01 Fevrier"
     bg = true
     buttonText = "Plus d'infos"
 
@@ -136,25 +136,25 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "S'inscire"
     bg = true
-    accountevent = "ultimateconf/2013"
+    accountevent = "satrday-abidjan/2020"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
-  [params.eventbrite]
-    enable = true
-    title = "Register"
-    bg = true
-    eid = "32416000129" 
+  #[params.eventbrite]
+  #  enable = true
+  #  title = "Register"
+  #  bg = true
+  #  eid = "32416000129" 
       # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
       # Supply this string as the value to `eid` above
 
-  [params.tickettailor]
-    enable = true
-    title = "Register"
-    bg = true
-    eventviewid = "162430"
+  #[params.tickettailor]
+  #  enable = true
+  #  title = "Register"
+  #  bg = true
+  #  eventviewid = "162430"
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
@@ -164,9 +164,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Call For Papers"
     bg = false
-    CfSpage = "/test3490"
+    CfSpage = "/satrday-abidjan-2020"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "01 Oct - 31 Oct 2019"
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -183,7 +183,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Fermer"
 
   # Schedule section
   [params.schedule]
@@ -196,7 +196,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Dates Importantes"
     subtitle = "Soyez Prêts!"
-    endpoint = "Conference"
+    endpoint = "Conférence"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -353,7 +353,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = "6LfgLbkUAAAAAGc6mv56GA3GlE06N8_mHiYmtP1J"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -388,18 +388,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/satrdays_org"
+      link = "https://twitter.com/abidjanrusers"
       title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-github"
-      link = "https://github.com/satRdays"
+      link = "https://github.com/abidjanr"
       title = "GitHub"
+
+    [[params.footer.quicklinks]]
+      text = "Code de conduite"
+      link = "#"
 
     [[params.footer.quicklinks]]
       text = "Politique de Confidentialité"
       link = "#"
-
+    
     [[params.footer.quicklinks]]
       text = "Conditions d'utilisation"
       link = "#"
