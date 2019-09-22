@@ -51,7 +51,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.navigation]
     brand = "satRday"
     # Optional logo as brand stored in img/
-    logo = "logo.png"
+    logo = "satrday-logo.png"
     services = "A Propos"
     portfolio = "Talks"
     eventbrite = "Inscription"
@@ -81,8 +81,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Abidjan 2020"
-    subtitle = "Une conference pour les utilisateurs de R qui se tiendra le 01 Fevrier"
-    bg = true
+    subtitle = "Une conference pour R et la Data Science qui se tiendra le 01 Fevrier"
+    bg = false
     buttonText = "Plus d'infos"
 
 
@@ -90,38 +90,38 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.services]
     enable = true
     title = "A Propos"
-    subtitle = "Détails sur la conference"
+    subtitle = "Abidjan R users c'est"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "Détails"
-      description = "[Conference Date] at [Conference Location]"
+      title = "Date"
+      description = "Le samedi 01 Février à Abidjan"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Pratique"
-      description = "Applications pratiques et ateliers de prise en main"
+      title = "Data Science"
+      description = "Des applications pratiques et ateliers de prise en main"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Formation"
-      description = "Acquérir les connaissances de vos pairs et de professionnels expérimentés"
+      description = "L'acquisition de connaissances de professionnels expérimentés"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
-      description = "Organisée par la communauté, axée sur la communauté"
+      description = "Organisée par la communauté et axée sur la communauté"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Gratuit"
-      description = "Gratuit"
+      description = "Gratuit!!!"
       url = "#"
 
     [[params.services.row.list]]
@@ -144,8 +144,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   #  enable = true
   #  title = "Register"
   #  bg = true
-  #  eid = "32416000129" 
-      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
+  #  eid = "32416000129"
+      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB
       # Follow instructions to discover your 'Website Integration' embeddable iframe
       # Take ONLY the numeric string between "eid=" and "&ref=etckt"
       # Supply this string as the value to `eid` above
@@ -158,31 +158,31 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Go to www.tickettailor.com and open your event page
       # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
       # Supply the number ONLY in `eventviewid`
-  
+
   # Call for papers section
   [params.callforpapers]
     enable = true
-    title = "Call For Papers"
+    title = "Appel à communications"
     bg = false
     CfSpage = "/satrday-abidjan-2020"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "01 Oct - 31 Oct 2019"
+    dates = "01 Nov - 14 Nov 2019"
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
     title = "Talks"
     subtitle = "Qui dit quoi?"
-    bg = true
+    bg = false
 
     [params.portfolio.modal]
       client = "Client"
       date = "Date"
-      category = "Category"
+      category = "Catégorie"
       buttonText = "Fermer"
 
   # Schedule section
@@ -193,105 +193,127 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Important Dates [About] section
   [params.about]
-    enable = true
+    enable = false
     title = "Dates Importantes"
     subtitle = "Soyez Prêts!"
-    endpoint = "Conférence"
+    endpoint = "Satrday Abidjan 2020"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "First Date"
+      img = "1.png"
+      date = "01 Octobre 2019"
       title = "Pré-conférence"
       description = "Nous organisons une conférence!"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
+      img = "2.png"
+      date = "14 Octobre 2019"
       title = "Début des enregistrements"
       description = "Enregistrez-vous dès à présent! Nombre de places limités"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "Third Date"
+      img = "3.png"
+      date = "01 Novembre 2019"
       title = "Appel à Communications"
       description = "Les soumissions pour être speaker sont ouverts!"
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
+      img = "4.png"
+      date = "14 Novembre 2019"
       title = "Fin de l'appel à Communications"
       description = "Date limite pour les soumissions de conférenciers"
-  
+
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Abidjan"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d254227.86506616062!2d-3.981736034992476!3d5.369627177142746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sci!4v1568834296308!5m2!1sen!2sci"
 
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
-    title = "Team"
-    subtitle = "Les gens qui l'organise"
-    bg = false
+    center = true
+    title = "Speakers"
+    subtitle = ""
+    bg = true
     description = ""
-    speakers = "Speakers"
-    
+    speakers = "Team"
+
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Anicet Ebou"
-      position = "Organisateur Principal"
-      reportsTo = ""
-      livesIn = "[Abidjan, Côte d'Ivoire](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
+    #  img = "faceholder.png"
+    #  name = "Liliane Zalo"
+    #  position = "Deputy Director Research and Statistic, Agence Emploi Jeunes"
+      #scope = []
+    #  bio = """Abidjan, Côte d'Ivoire"""
+    #  social = [
+    #    ["fa-linkedin", "#"]
+    #  ]
+
+    [[params.team.members]]
+    #  img = "bh.jpg"
+    #  name = "Bruno Herault"
+    #  position = "Lecturer, CIRAD, INPHB"
+      #scope = []
+    #  bio = """Cote d'Ivoire, France"""
+    #  social = [
+    #    ["fa-twitter", "#"]
+    #  ]
+    [[params.team.members]]
+    #  img = "faceholder.png"
+    #  name = "Souleymane Kone"
+    #  position = "CEO SEJEN CI"
+      #scope = []
+    #  bio = """Abidjan, Côte d'Ivoire"""
+    #  social = [
+    #    ["fa-linkedin", "#"]
+    #  ]
+
+    [[params.team.members]]
+    #  img = "sk.jpeg"
+    #  name = "Shelmith Kariuki"
+    #  position = "Senior Data Scientist"
+      #reportsTo = ""
+      #livesIn = "[Abidjan, Côte d'Ivoire](#some-maps-url)"
+      #scope = []
       # For bio markdown and even multiline strings are available.
-      bio = """Je suis bioinformaticien,
-      et amoureux de R"""
-      social = [
-        ["fa-twitter", "https://twitter.com/anicetebou"],
-        ["fa-github", "https://github.com/ebedthan"],
-        ["fa-linkedin", "https://linkedin.com/in/anicet-ebou"]
-      ]
+    #  bio = """Nairobi, Kenya"""
+    #  social = [
+    #    ["fa-twitter", "https://twitter.com/Shel_Kariuki"]
+    #  ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Evans Kouadio"
-      position = "Organisation et Logistique"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    #  img = "ad.jpg"
+    #  name = "Ahmadou Dicko"
+    #  position = "Statistician and Economist, OCHA Center for Humanitarian Data"
+      #scope = []
+    #  bio = """Dakar, Sénegal"""
+    #  social = [
+    #    ["fa-twitter", "#"]
+    #  ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Aimé Kouadio"
-      position = "Communication et Sponsoring"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    #  img = "di.jpg"
+    #  name = "Dennis Irorere"
+    #  position = ""
+      #scope = []
+    #  bio = """Akure, Nigeria"""
+    #  social = [
+    #    ["fa-twitter", "#"]
+    #  ]
 
   # Client section
   [params.clients_list]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
     bg = true
@@ -314,9 +336,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "creative-market.jpg"
       link = "#"
-  
+
   [params.diversity]
-    enable = true
+    enable = false
     title = "Diversité"
     bg = true
 
@@ -384,7 +406,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Publié sous la licence Apache 2.0."
+    copyright = "satRday Abidjan 2020 - Licence Apache 2.0."
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -398,12 +420,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.quicklinks]]
       text = "Code de conduite"
-      link = "#"
+      link = "https://knowledgebase.satrdays.org/diversity/#code-of-conduct"
 
     [[params.footer.quicklinks]]
       text = "Politique de Confidentialité"
-      link = "#"
-    
-    [[params.footer.quicklinks]]
-      text = "Conditions d'utilisation"
       link = "#"
