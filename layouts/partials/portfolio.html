@@ -1,0 +1,80 @@
+{{ "<!-- Portfolio Grid Section -->" | safeHTML }}
+<section id="portfolio" {{ if .Site.Params.portfolio.bg }}
+class="bg-light-gray"
+{{ end }}>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.portfolio.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.portfolio.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading"></h2>
+          <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Heure | Time </th>
+              <th colspan="2" style =" text-align:center">Session / Session</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">09:00 - 09:30</th>
+              <td colspan="2"><b>Ouverture / Opening</b><br><i><b>Comite d'organisation / Organising comitee</b></i></td>
+            </tr>
+            <tr>
+              <th scope="row">09:30 - 10:30</th>
+              <td colspan="2"><b>Keynote</b><br><i>Des données brutes aux insights / Drawing insights from raw data</i></td>
+            </tr>
+            <tr>
+              <th scope="row">10:30 - 11:00</th>
+              <td colspan="2"><b>Pause café / Coffee break</b></td>
+            </tr>
+            <tr>
+              <th scope="row">11:00 - 11:45</th>
+              <td colspan="2"><i>Manipulation des données avec dplyr / Data wrangling with dplyr</i></td>
+            </tr>
+            <tr>
+              <th scope="row">11:45 - 12:30</th>
+              <td><i>Visualisation des données avec ggplot2 / Data visualization with ggplot2</i></td>
+              <td><i>Visualisation des données spatiales / Spatial data visualization</i></td>
+            </tr>
+            <tr>
+              <th scope="row">12:30 - 13:30</th>
+              <td colspan="2"><b>Pause Déjeuner / Lunch Break</b></td>
+            </tr>
+            <tr>
+              <th scope="row">13:30 - 14:15</th>
+              <td colspan="2"><i>Analyse prédictive avec R / Predictive analysis with R</i></td>
+            </tr>
+            <tr>
+              <th scope="row">14:15 - 15:00</th>
+              <td><i>Les test d’hypothèses avec R / Hypthesis testing with R</i></td>
+              <td><i>Selection des variables pour la construction d’un modèle / Feature selection models</i></td>
+            </tr>
+            <tr>
+              <th scope="row">15:00 - 15:30</th>
+              <td colspan="2"><b>Pause café / Coffee break</b></td>
+            </tr>
+            <tr>
+              <th scope="row">15:30 - 16:15</th>
+              <td colspan="2"><i>Rmarkdown: Recherche reproductible et automatisée / R markdown: Reproducible research and automated reporting</i></td>
+            </tr>
+            <tr>
+              <th scope="row">16:15 - 17:00</th>
+              <td><i>Deep learning avec R / Deep learning in R</i></td>
+              <td><i>Développer une application web avec Shiny / Building web app with Shiny</i></td>
+            </tr>
+            <tr>
+              <th scope="row">17:00 - 17:15</th>
+              <td colspan="2"><b>Clôture / Closing</b><br><i><b>Comite d'organisation / Organising comitee</b></i></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <a class="btn btn-primary" href="docs/schedule.pdf" role="button" download>Download the schedule</a>
+      </div>
+    </div>
+</section>
