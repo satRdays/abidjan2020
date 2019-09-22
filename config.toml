@@ -322,8 +322,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = ""
-      link = "#"
+      logo = "jr.png"
+      link = "https://www.jumpingrivers.com/"
 
     [[params.clients]]
       logo = ""
@@ -371,8 +371,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     email = "abidjanrusers@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Merci de nous avoir contacté!!"
+    error = "Votre message n'a pu être envoyé. Veuillez SVP nous contacter à abidjanrusers@gmail.com."
 
     [params.contact.captcha]
       sitekey = "6LfgLbkUAAAAAGc6mv56GA3GlE06N8_mHiYmtP1J"
