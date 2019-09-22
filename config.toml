@@ -27,7 +27,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
   custom_js  = []
-  favicon    = "img/favicon.ico"
+  favicon    = "img/satrday-logo.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -53,11 +53,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Optional logo as brand stored in img/
     logo = "satrday-logo.png"
     services = "A Propos"
-    portfolio = "Talks"
-    eventbrite = "Inscription"
-    schedule = "Programme"
     team = "Team"
-    contact = "Impliquez-vous"
+    #tito = "Inscription"
+    portfolio = "Programme"
+    #schedule = "Programme"
+    contact = "Contactez nous"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -161,7 +161,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Appel à communications"
     bg = false
     CfSpage = "/satrday-abidjan-2020"
@@ -170,13 +170,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more information take a look at the README.
-    title = "Talks"
-    subtitle = "Qui dit quoi?"
+    title = "Programme"
+    subtitle = ""
     bg = false
 
     [params.portfolio.modal]
@@ -187,7 +187,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Programme"
     bg = false
 
@@ -237,7 +237,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     # Possibility to center items
     center = true
-    title = "Speakers"
+    title = ""
     subtitle = ""
     bg = true
     description = ""
@@ -348,7 +348,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     title = "Contactez-nous"
     subtitle  = "N'hesitez pas à entrer en contact avec nous!"
     buttonText = "Envoyer"
-    # netlify = true
+    netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
