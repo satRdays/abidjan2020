@@ -1,0 +1,7 @@
+img = "faceholder.png"
+name = "Aimé Kouassi"
+organisation = ""
+role = "Communication"
+social = [
+        ["fa-twitter", "https://twitter.com/AimKouassi6"],
+      ]
