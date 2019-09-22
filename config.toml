@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "abidjan2020.satrdays.org"
+baseurl = "https://abidjan2020.satrdays.org"
 languageCode = "fr-FR"
 title = "satRday Abidjan 2020"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
