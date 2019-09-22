@@ -247,7 +247,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
+    #[[params.team.members]]
     #  img = "faceholder.png"
     #  name = "Liliane Zalo"
     #  position = "Deputy Director Research and Statistic, Agence Emploi Jeunes"
@@ -257,7 +257,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #    ["fa-linkedin", "#"]
     #  ]
 
-    [[params.team.members]]
+    #[[params.team.members]]
     #  img = "bh.jpg"
     #  name = "Bruno Herault"
     #  position = "Lecturer, CIRAD, INPHB"
@@ -266,7 +266,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #  social = [
     #    ["fa-twitter", "#"]
     #  ]
-    [[params.team.members]]
+    #[[params.team.members]]
     #  img = "faceholder.png"
     #  name = "Souleymane Kone"
     #  position = "CEO SEJEN CI"
@@ -276,7 +276,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #    ["fa-linkedin", "#"]
     #  ]
 
-    [[params.team.members]]
+    #[[params.team.members]]
     #  img = "sk.jpeg"
     #  name = "Shelmith Kariuki"
     #  position = "Senior Data Scientist"
@@ -289,7 +289,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #    ["fa-twitter", "https://twitter.com/Shel_Kariuki"]
     #  ]
 
-    [[params.team.members]]
+    #[[params.team.members]]
     #  img = "ad.jpg"
     #  name = "Ahmadou Dicko"
     #  position = "Statistician and Economist, OCHA Center for Humanitarian Data"
@@ -299,7 +299,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #    ["fa-twitter", "#"]
     #  ]
 
-    [[params.team.members]]
+    #[[params.team.members]]
     #  img = "di.jpg"
     #  name = "Dennis Irorere"
     #  position = ""
@@ -322,19 +322,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "designmodo.jpg"
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "themeforest.jpg"
+      logo = ""
       link = "#"
 
     [[params.clients]]
-      logo = "creative-market.jpg"
+      logo = ""
       link = "#"
 
   [params.diversity]
