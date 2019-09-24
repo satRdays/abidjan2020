@@ -257,15 +257,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #    ["fa-linkedin", "#"]
     #  ]
 
-    #[[params.team.members]]
-    #  img = "bh.jpg"
-    #  name = "Bruno Herault"
-    #  position = "Lecturer, CIRAD, INPHB"
+    [[params.team.members]]
+      img = "bh.jpg"
+      name = "Bruno Herault"
+      position = "Lecturer, CIRAD, INPHB"
       #scope = []
-    #  bio = """Cote d'Ivoire, France"""
-    #  social = [
-    #    ["fa-twitter", "#"]
-    #  ]
+      bio = """Cote d'Ivoire, France"""
+      social = [
+        ["fa-globe", "http://agents.cirad.fr/index.php/Bruno+HERAULT"]
+      ]
     #[[params.team.members]]
     #  img = "faceholder.png"
     #  name = "Souleymane Kone"
