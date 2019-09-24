@@ -237,7 +237,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     # Possibility to center items
     center = true
-    title = ""
+    title = "Speakers"
     subtitle = ""
     bg = true
     description = ""
