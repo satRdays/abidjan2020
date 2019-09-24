@@ -22,7 +22,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # information about you and your website.
   name = "satRday Abidjan 2020"
   description = "R conference in Abidjan 2020"
-  email = "abidjanrusers@gmail.com"
+  email = "abidjan.satrday@gmail.com"
 
   # Link custom assets relative to /static
   custom_css = ["css/satrday.css"]
@@ -368,7 +368,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "abidjanrusers@gmail.com"
+    email = "abidjan.satrday@gmail.com"
 
     # Success and error message overwrite for async contact form
     thanks = "Merci de nous avoir contacté!!"
