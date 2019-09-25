@@ -247,6 +247,27 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "bh.jpg"
+      name = "Bruno Herault"
+      position = "Lecturer, CIRAD, INPHB"
+      #scope = []
+      bio = """Cote d'Ivoire, France"""
+      social = [
+        ["fa-globe", "http://agents.cirad.fr/index.php/Bruno+HERAULT"]
+      ]
+
+    [[params.team.members]]
+      img = "ad.jpg"
+      name = "Ahmadou Dicko"
+      position = "Statistician and Economist, OCHA Center for Humanitarian Data"
+      #scope = []
+      bio = """Dakar, Sénegal"""
+      social = [
+        ["fa-twitter", "https://twitter.com/dickoah"],
+        ["fa-globe", "https://ahmadoudicko.com"]
+    ]
+
     #[[params.team.members]]
     #  img = "faceholder.png"
     #  name = "Liliane Zalo"
@@ -257,15 +278,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #    ["fa-linkedin", "#"]
     #  ]
 
-    [[params.team.members]]
-      img = "bh.jpg"
-      name = "Bruno Herault"
-      position = "Lecturer, CIRAD, INPHB"
-      #scope = []
-      bio = """Cote d'Ivoire, France"""
-      social = [
-        ["fa-globe", "http://agents.cirad.fr/index.php/Bruno+HERAULT"]
-      ]
     #[[params.team.members]]
     #  img = "faceholder.png"
     #  name = "Souleymane Kone"
@@ -287,16 +299,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #  bio = """Nairobi, Kenya"""
     #  social = [
     #    ["fa-twitter", "https://twitter.com/Shel_Kariuki"]
-    #  ]
-
-    #[[params.team.members]]
-    #  img = "ad.jpg"
-    #  name = "Ahmadou Dicko"
-    #  position = "Statistician and Economist, OCHA Center for Humanitarian Data"
-      #scope = []
-    #  bio = """Dakar, Sénegal"""
-    #  social = [
-    #    ["fa-twitter", "#"]
     #  ]
 
     #[[params.team.members]]
