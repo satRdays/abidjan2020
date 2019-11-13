@@ -134,7 +134,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # You only need ONE of these active
   [params.tito]
     enable = true
-    title = "S'inscire"
+    title = "S'inscrire"
     bg = true
     accountevent = "satrday-abidjan/2020"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
