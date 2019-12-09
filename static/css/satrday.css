@@ -1,5 +1,9 @@
 /* Colours work */
 
+.clients > div:nth-child(1) > a:nth-child(4) {
+    align: center;
+}
+
 header {
     color: white;
     background-position: center left;
