@@ -1,7 +1,7 @@
 /* Colours work */
 
 .sponsors {
-    text-align: center;
+    text-align: center; !important
 }
 
 header {
@@ -468,12 +468,12 @@ section {
 /* General button style (reset) */
 
 .btn {
-    border: none;
+    /*border: none;*/
     font-family: inherit;
     font-size: inherit;
-    color: #2165B6;
-    background: none;
-    background-color: white;
+    /*color: #2165B6;*/
+    /*background: none;*/
+    /*background-color: white;*/
     cursor: pointer;
     padding: 25px 80px;
     display: inline-block;
