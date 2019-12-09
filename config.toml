@@ -404,7 +404,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "https://twitter.com/abidjanrusers"
+      link = "https://twitter.com/satRdaysAbidjan"
       title = "Twitter"
 
     [[params.footer.social]]
