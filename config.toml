@@ -56,8 +56,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     team = "Team"
     #tito = "Inscription"
     portfolio = "Programme"
+    location = "Venue"
     #schedule = "Programme"
-    contact = "Contactez nous"
+    #contact = "Contactez nous"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
