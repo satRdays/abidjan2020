@@ -269,49 +269,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         ["fa-globe", "https://ahmadoudicko.com"]
     ]
 
-    #[[params.team.members]]
-    #  img = "faceholder.png"
-    #  name = "Liliane Zalo"
-    #  position = "Deputy Director Research and Statistic, Agence Emploi Jeunes"
-      #scope = []
-    #  bio = """Abidjan, Côte d'Ivoire"""
-    #  social = [
-    #    ["fa-linkedin", "#"]
-    #  ]
-
-    #[[params.team.members]]
-    #  img = "faceholder.png"
-    #  name = "Souleymane Kone"
-    #  position = "CEO SEJEN CI"
-      #scope = []
-    #  bio = """Abidjan, Côte d'Ivoire"""
-    #  social = [
-    #    ["fa-linkedin", "#"]
-    #  ]
-
-    #[[params.team.members]]
-    #  img = "sk.jpeg"
-    #  name = "Shelmith Kariuki"
-    #  position = "Senior Data Scientist"
-      #reportsTo = ""
-      #livesIn = "[Abidjan, Côte d'Ivoire](#some-maps-url)"
-      #scope = []
-      # For bio markdown and even multiline strings are available.
-    #  bio = """Nairobi, Kenya"""
-    #  social = [
-    #    ["fa-twitter", "https://twitter.com/Shel_Kariuki"]
-    #  ]
-
-    #[[params.team.members]]
-    #  img = "di.jpg"
-    #  name = "Dennis Irorere"
-    #  position = ""
-      #scope = []
-    #  bio = """Akure, Nigeria"""
-    #  social = [
-    #    ["fa-twitter", "#"]
-    #  ]
-
   # Client section
   [params.clients_list]
     enable = true
@@ -331,6 +288,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "jr.png"
       link = "https://www.jumpingrivers.com/"
+      
+    [[params.clients]]
+      logo = "zindi-logo.png"
+      link = "https://www.zindi.africa/"
 
   [params.diversity]
     enable = false
